@@ -1,7 +1,7 @@
 {
   "main.css": "/rps-competition/static/css/main.6600fb82.chunk.css",
-  "main.js": "/rps-competition/static/js/main.5f9e6993.chunk.js",
-  "main.js.map": "/rps-competition/static/js/main.5f9e6993.chunk.js.map",
+  "main.js": "/rps-competition/static/js/main.760f32a1.chunk.js",
+  "main.js.map": "/rps-competition/static/js/main.760f32a1.chunk.js.map",
   "static/js/1.9e10e081.chunk.js": "/rps-competition/static/js/1.9e10e081.chunk.js",
   "static/js/1.9e10e081.chunk.js.map": "/rps-competition/static/js/1.9e10e081.chunk.js.map",
   "runtime~main.js": "/rps-competition/static/js/runtime~main.d5864bd5.js",
@@ -9,6 +9,6 @@
   "static/media/logo.svg": "/rps-competition/static/media/logo.5d5d9eef.svg",
   "static/css/main.6600fb82.chunk.css.map": "/rps-competition/static/css/main.6600fb82.chunk.css.map",
   "index.html": "/rps-competition/index.html",
-  "precache-manifest.c0a02bc8e9e853b1ae76a73d0edd6a5f.js": "/rps-competition/precache-manifest.c0a02bc8e9e853b1ae76a73d0edd6a5f.js",
+  "precache-manifest.e4d8b783025dd3129e04a19fc7679ae1.js": "/rps-competition/precache-manifest.e4d8b783025dd3129e04a19fc7679ae1.js",
   "service-worker.js": "/rps-competition/service-worker.js"
 }

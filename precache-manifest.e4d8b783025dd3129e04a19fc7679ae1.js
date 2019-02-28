@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/rps-competition/static/js/runtime~main.d5864bd5.js"
   },
   {
-    "revision": "5f9e69937b7df254a2c7",
-    "url": "/rps-competition/static/js/main.5f9e6993.chunk.js"
+    "revision": "760f32a19712bdfda852",
+    "url": "/rps-competition/static/js/main.760f32a1.chunk.js"
   },
   {
     "revision": "9e10e0812a1de55a1c58",
     "url": "/rps-competition/static/js/1.9e10e081.chunk.js"
   },
   {
-    "revision": "5f9e69937b7df254a2c7",
+    "revision": "760f32a19712bdfda852",
     "url": "/rps-competition/static/css/main.6600fb82.chunk.css"
   },
   {
-    "revision": "6c1b1150d6d99116e159d9670626878a",
+    "revision": "1a90f0ef0f09e294f0995eed53d0c6f4",
     "url": "/rps-competition/index.html"
   }
 ];
