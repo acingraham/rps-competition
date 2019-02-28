@@ -30,7 +30,7 @@ const buildTable = (names, results) => {
   const {roundScores} = results;
   const table = [];
   for (let name of names) {
-    const row = [name];
+    const row = [];
     let total = 0;
     for (const [index, roundChoice] of results.roundChoices.entries()) {
       const choice = roundChoice[name];
@@ -41,7 +41,8 @@ const buildTable = (names, results) => {
       const sign = score > 0 ? '+' : '';
       row.push(`${icon} (${sign}${score})`);
     }
-    row.push(total);
+    row.unshift(total);
+    row.unshift(name);
     table.push(row);
   }
 
@@ -50,9 +51,9 @@ const buildTable = (names, results) => {
 
 const Results = ({names, results}) => {
   const table = buildTable(names, results);
-  table.sort((r1, r2) => r2[r2.length - 1] - r1[r1.length - 1]);
+  table.sort((r1, r2) => r2[1] - r1[1]);
 
-  const tableHeader = ['Name', ...range(1, 1 + results.roundChoices.length), 'Total'];
+  const tableHeader = ['Name', 'Total', ...range(1, 1 + results.roundChoices.length)];
 
   return (
     <FlipMove>
