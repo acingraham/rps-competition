@@ -7,7 +7,7 @@ const PAPER = 'paper';
 const SCISSORS = 'scissors';
 
 const ICONS = {
-  [ROCK]: '🤘',
+  [ROCK]: '✊',
   [PAPER]: '📰',
   [SCISSORS]: '✂',
 };
